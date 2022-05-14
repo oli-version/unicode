@@ -1,0 +1,80 @@
+@import url('https://fonts.googleapis.com/css2?family=DM+Sans:ital,wght@0,400;0,500;0,700;1,400;1,500;1,700&display=swap');
+
+body{
+    background-color: #333333;
+    color: white;
+    margin: 100px;
+    font-family: 'DM Sans';
+}
+
+*{
+    margin: 0;
+}
+
+a{
+    color: #ffffff;
+    background-color: none;
+}
+
+a{
+    color: #299fff;
+    text-decoration: none;
+}
+
+a:hover{
+    text-decoration: underline;
+}
+
+p{
+    font-size: 20px;
+}
+
+div{
+    margin-bottom: 50px;
+}
+
+code{
+    background-color: hsl(227, 14%, 12%);
+    padding-left: 5px;
+    padding-right: 5px;
+    padding-top: 1px;
+    padding-bottom: 1px;
+    font-family: 'Roboto Mono';
+    font-size: 16px;
+    border-radius: 5px;
+    color: #ff006a;
+}
+
+.body {
+    animation: fadeIn; /* referring directly to the animation's @keyframe declaration */
+    animation-duration: 3.5s; /* don't forget to set a duration! */
+}
+
+input{
+	background-color:  rgb(255, 255, 255);
+	border-style: solid;
+	
+	border-width: 2px;
+	color: black;
+	padding: 5px;
+    width: 200px;
+	padding-left: 7px;
+	margin-top: 5px;
+    margin-bottom: 10px;
+	border-radius: 5px;
+	font-family: 'DM Sans';
+    transition: 0.3ms;
+    -o-transition: 0.3ms;
+    -webkit-transition: 0.3ms;
+    -moz-transition: 0.3ms;
+    box-shadow: 0px 2px #868786;
+    font-weight: bold;
+}
+
+input:focus{
+    outline: none;
+}
+
+img#head{
+    border-radius: 10px;
+}
