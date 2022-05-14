@@ -1,6 +1,6 @@
 <script>
 	let url = 'https://minotar.net/helm/';
-	let name = 'e0';
+	let name = '';
 </script>
 
 <main>
